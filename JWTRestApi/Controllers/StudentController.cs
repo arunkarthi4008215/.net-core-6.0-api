@@ -11,7 +11,7 @@ namespace JWTRestApi.Controllers
     [Route("api/[controller]")]
     [Produces("application/json")]
     [ApiController]
-    [Authorize]
+    [Authorize] //
     public class StudentController : ControllerBase
 
     {
